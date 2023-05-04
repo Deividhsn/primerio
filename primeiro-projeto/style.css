@@ -1,0 +1,99 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: pink;
+    color:black;
+    
+}
+/*cabeçalho em geral*/
+.cabeçalho{
+    /*background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 3%;
+    
+}
+
+/*menu de navegação*/
+
+.menu{
+    display: flex;
+    /*background-color: beige;*/
+    
+}
+
+
+.menu a{
+    /*background-color: aqua;*/
+    margin: 0 15px;
+    color: black;
+}
+
+/*Botão lateral*/
+.botao{
+    background-color: blueviolet;
+    padding: 2px 6px;
+    border-radius: 20px;
+    color: black;
+}
+
+/*texto corpo*/
+.text{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+}
+
+h1{
+    margin-bottom: 3%;
+    color: black;
+}
+
+h4{
+color: rgb(175, 175, 175);
+text-align: left;
+margin-top: 18%;
+margin-left: -18%;
+
+
+
+}
+
+
+/*botão corpo do texto*/
+
+.botao1{
+
+ margin-left: 10%;
+}
+
+.btn1{
+    background-color: aqua;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+.btn2{
+    background-color: blue;
+    padding: 10px 0px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+.fundo{
+    height: auto;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
