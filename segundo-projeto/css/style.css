@@ -20,7 +20,7 @@ header{
 }
 
 header a{
-    margin: 2% 6%;
+    margin: 1% 6%;
     /*background-color: pink;*/
     color: white;
     font-size: 20px;
@@ -105,5 +105,49 @@ header a{
 
 }
 .boton1:hover{
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.section2{
+    display: flex;
+    background-color: rgb(64, 100, 100);
+    margin-top: 3%;
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+   
+   
+}
+
+.quadro{
+
+    display: inline-block;
+    background-color: aqua;
+    padding: 8% 9%;
+    margin: 3%;
+    
+
+}
+
+
+.textLateral p{
+    /*display: inline-block;*/
+    background-color: aquamarine;
+    margin: 7%;
+    
+}
+
+.boton2{
+    color: white;
+    padding: 1% 5%;
+    display: inline-block;
+    border-radius: 30px;
+    border: solid;
+    border-width: 2px;
+    margin-bottom: 3%;
+    
+}
+
+.boton2:hover{
     background-color: rgba(0, 0, 0, 0.226);
 }
