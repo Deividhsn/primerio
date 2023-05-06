@@ -8,31 +8,34 @@
 }
 
 body{
-    background-color: rgb(223, 217, 217);
+    background-color: rgb(22, 21, 21);
+    margin: 10px;
 }
 
 header{
-    background-color: black;
+    background-color: rgb(19, 15, 15);
     color: white;
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    text-align: left;
 }
 
 header a{
     margin: 1% 6%;
-    /*background-color: pink;*/
     color: white;
-    font-size: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+   
 }
 
 /*menu dropdown*/
 
 .menu li h4{
-    margin-right: 50px;
-    /*background-color: aqua;*/
+    padding: 0  100px;
     display: inline-block;
+    text-transform: uppercase;
 
 }
 
@@ -40,13 +43,15 @@ header a{
     
     position: relative;
     
+    
 }
 
 .menu li ul{
     position: absolute;
     display: none;
-    background-color: black;
-    padding: 5%;
+    background-color: rgb(19, 15, 15);
+    padding: 5% 25%;
+    
     
 
 }
@@ -58,22 +63,28 @@ header a{
 .menu li ul li{
     display: block;
     margin-top: 20%;
+    padding: 0  20px;
+    text-align: left;
+   
     
 }
 .menu li ul li:hover{
     background-color: rgb(174, 196, 216);
+    display: inline-block;
+   
 }
 
 /*section1*/
 
 .section1{
-    background-color: rgb(64, 100, 100);
     color: white;
     align-items: center;
     text-align: center;
     /*width: 100%;
     height: 50Vw;*/
    padding: 5%;
+   box-shadow: 0px 0px 10px 10px #3a2c2c8a;
+   margin-top: 1%;
 }
 
 .boxBtns{
@@ -111,21 +122,23 @@ header a{
     margin-top: 1%;
     /*width: 100%;
     height: 50vh;*/
+    /*gap: 40px;*/
     padding: 5%;
     display: flex;
     background-color: rgb(64, 100, 100);
     text-align: center;
     align-items: center;
     justify-content: center;
-    gap: 40px;
     margin-bottom: -4%;
+    box-shadow: -10px 20px 10px 0px #332d2d8a;
+ 
    
    
 }
 .section2 div{
    /* width: 45%;
     height: 80%;*/
-    padding: 8%;
+    padding: 7%;
 }
 
 .quadro{
@@ -138,7 +151,7 @@ header a{
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
-    box-shadow: -10px 10px 20px 0px #00000040;
+    box-shadow: -10px 20px 10px 0px #0000008a;
 }
 
 .quadro div{
@@ -210,7 +223,7 @@ header a{
     font-size: 50px;
    
  }
-
+/*seciton 3 */
 .section3{ 
     text-align: center;
     color: white;
@@ -220,28 +233,219 @@ header a{
 }
 .section3 nav{
 
-    display: inline-block;
-    margin-left: -10%;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    
+   
     
 }
     
 .section3 nav ul{
     
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    
    
 }
 
 .section3 nav ul li{
-    padding: 5%;
+
     display: inline-block;
-    margin-right: 20%;
-    margin-top: 30%;
+    margin-right: 6%;
+    margin-top: 10%;
+    justify-content: space-between;
+    margin-left: 10%;
        
 }
 
 .icone i{
-    font-size: 100px;
+    font-size: 500%;
     color: #fff;
+    padding: 10px;
+    
+    
+    
 }
 
+.section3 nav ul li p{
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+
+/*section 4*/
+.section4{
+    background-color: rgb(64, 100, 100);
+    padding: 5%;
+    box-shadow: -10px 20px 10px 0px #332d2d8a;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10%;
+    
+
+}
+.section4 .bloco1{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: left;
+    margin-left: 10%;
+    
+
+}
+
+
+.section4 div h2{
+
+    display: flex;
+    margin-bottom: 10%;
+    text-transform: uppercase;
+    
+      
+}
+
+
+.section4 div p{
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 10%;
+    font-size: small;
+    
+    
+}
+
+.section4 form{
+    display: flex;
+
+}
+.section4 div form .email{
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    margin-bottom: 1%;
+    color: gray;
+    padding: 1% 5%;
+    
+
+}
+
+.section4 div form .submit{
+    padding: 2% 8%;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-left: 2%;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.section4 div form .submit:hover{
+    transition: .5s;
+    box-shadow: inset 173px 0px 0px 0px #000000;
+}
+
+.section4 .bloco2{
+    width: 35%;
+    height: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: baseline;
+    margin-left: 10%;
+    background-color: #000000a9;
+
+
+}
+
+.section4 .bloco2 h3{
+    margin-top: 10%;
+    display: inline-block;
+    margin-bottom: 8%;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.section4 .bloco2 .boton2{
+    padding: 1% 10%;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px; 
+    border: 1px solid;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 3%;
+    font-size: 12px;
+
+}
+
+
+/*rodapé*/
+
+footer{
+    display: flex;
+    height:auto ;
+    width:100% ;
+    padding: 1% 5%;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+footer .logo a{
+    color: #fff;
+    text-transform: uppercase;
+    margin: -20%;
+
+}
+
+footer .nav ul{
+    display: flex; 
+    padding: 1px 50%; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer .nav nav ul li{
+
+    display: flex;
+    white-space:nowrap; 
+    color: #fff;
+    font-size: 12px;
+    padding: 0 18px;
+    text-transform: uppercase;
+}
+
+footer .nav nav ul li a{
+    color: #fff;
+    font-size: 13px;
+}
+
+
+footer .nav1 nav ul{
+    display: flex;
+}
+
+footer .nav1 nav ul li a {
+    font-size: 25px;
+    color: #fff;
+    margin-left: 1px;
+    
+
+}
