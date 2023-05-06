@@ -85,6 +85,19 @@ header a{
    padding: 5%;
    box-shadow: 0px 0px 10px 10px #3a2c2c8a;
    margin-top: 1%;
+   
+}
+
+.fundo{
+    background-color: aqua;
+    align-items: center;
+    justify-content: center; 
+    background-image: url(https://www.wallpaperbetter.com/wallpaper/637/697/218/dark-landscape-5K-wallpaper.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    padding: 3%;
+    box-shadow: 0px 0px 10px 10px #3a2c2c8a;
 }
 
 .boxBtns{
@@ -259,6 +272,7 @@ header a{
     margin-top: 10%;
     justify-content: space-between;
     margin-left: 10%;
+    box-shadow: 0px 0px 10px 10px #3a2c2c8a;
        
 }
 
@@ -276,6 +290,7 @@ header a{
     display: inline-block;
     justify-content: center;
     margin-top: 10%;
+   
 
 }
 
@@ -390,6 +405,13 @@ header a{
     font-weight: 400;
     margin-bottom: 3%;
     font-size: 12px;
+
+}
+
+.section4 .bloco2 .boton2:hover{
+    display: inline-block;  
+    transition: .5s;
+    box-shadow: inset 173px 0px 0px 0px #000000;
 
 }
 
