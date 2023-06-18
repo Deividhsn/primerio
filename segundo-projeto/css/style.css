@@ -238,6 +238,7 @@ header a{
  }
 /*seciton 3 */
 .section3{ 
+    height: 100%;
     text-align: center;
     color: white;
     padding: 5%;
@@ -247,7 +248,7 @@ header a{
 .section3 nav{
 
     display: flex;
-     align-items: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
     padding: 5%;
@@ -257,22 +258,23 @@ header a{
 }
     
 .section3 nav ul{
-    
+    height: 100%;
+    width: 110%;
     display: flex;
+    
     align-items: center;
     justify-content: center;
+    margin: auto;
+    gap: 50px;
     
    
 }
 
 .section3 nav ul li{
-
-    display: inline-block;
-    margin-right: 6%;
-    margin-top: 10%;
-    justify-content: space-between;
-    margin-left: 10%;
+    height:100%; 
+    width: 200px;    
     box-shadow: 0px 0px 10px 10px #3a2c2c8a;
+    
        
 }
 
@@ -289,7 +291,7 @@ header a{
     align-items: center;
     display: inline-block;
     justify-content: center;
-    margin-top: 10%;
+    margin: 10%;
    
 
 }
@@ -297,24 +299,27 @@ header a{
 
 /*section 4*/
 .section4{
-    background-color: rgb(64, 100, 100);
-    padding: 5%;
-    box-shadow: 0px 0px 10px 10px #3a2c2c8a;
     display: flex;
-    align-items: start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
     gap: 10%;
+    background-color: rgb(64, 100, 100);
+    box-shadow: 0px 0px 10px 10px #3a2c2c8a;
     
 
 }
 .section4 .bloco1{
-    width: 30%;
-    height: auto;
+    
+    width: 50vh;
+    height: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     display: flex;
     flex-direction: column;
     align-items:baseline;
     justify-content: left;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     
 
 }
@@ -341,7 +346,8 @@ header a{
 
 .section4 form{
     display: flex;
-
+    margin: auto;
+    
 }
 .section4 div form .email{
     border-radius: 4px;
@@ -350,7 +356,8 @@ header a{
     background-color: transparent;
     margin-bottom: 1%;
     color: gray;
-    padding: 1% 5%;
+   
+    
     
 
 }
@@ -372,23 +379,19 @@ header a{
 }
 
 .section4 .bloco2{
-    width: 35%;
-    height: auto;
-    padding: auto;
+    height: 50vh;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content: baseline;
-    margin-left: 10%;
+    justify-content: center;
     background-color: #000000a9;
 
 
 }
 
 .section4 .bloco2 h3{
-    margin-top: 10%;
     display: inline-block;
-    margin-bottom: 8%;
     text-align: center;
     font-size: 25px;
     text-transform: uppercase;
@@ -403,6 +406,7 @@ header a{
     border: 1px solid;
     text-transform: uppercase;
     font-weight: 400;
+    margin-top: 3%;
     margin-bottom: 3%;
     font-size: 12px;
 
@@ -469,5 +473,47 @@ footer .nav1 nav ul li a {
     color: #fff;
     margin-left: 1px;
     
+
+}
+
+
+
+/* responsividade */
+
+@media(max-width:519px){
+    body{
+        margin: auto;
+    }
+.section2{
+        flex-direction: column;
+    }
+
+.section3 nav ul{
+    flex-direction: column;
+    font-size: 15px;
+    
+}
+
+.section3 nav ul li p{
+    margin: 10%;
+}
+.section4{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+}
+.section4 form{
+    justify-content: center;  
+
+}
+
+footer .nav ul{
+    display: none;
+}
+.section4 .bloco2{
+    margin-top: 10%;
+    width: 50%;
+}
 
 }
