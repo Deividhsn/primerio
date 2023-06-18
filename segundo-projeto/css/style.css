@@ -10,9 +10,11 @@
 body{
     background-color: rgb(22, 21, 21);
     margin: 10px;
+    margin: auto;
 }
 
 header{
+    margin: auto;
     background-color: rgb(19, 15, 15);
     color: white;
     display: flex;
