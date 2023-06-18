@@ -14,14 +14,18 @@ body{
 }
 
 header{
+    width: 100%;
     margin: auto;
     background-color: rgb(19, 15, 15);
     color: white;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row-reverse;
     text-align: center;
     align-items: center;
-    text-align: left;
+    justify-content: space-between;
+   
+    
+ 
 }
 
 header a{
@@ -34,27 +38,31 @@ header a{
 
 /*menu dropdown*/
 
-.menu li h4{
-    padding: 0  100px;
-    display: inline-block;
-    text-transform: uppercase;
 
-}
 
 .nav ul li{
     
     position: relative;
+    padding: 10px;
     
     
 }
 
 .menu li ul{
+    width: 80%;
     position: absolute;
     display: none;
     background-color: rgb(19, 15, 15);
-    padding: 5% 25%;
+    height: 40vh;
+    width: 150%;
     
     
+    
+
+}
+.menu li h4{
+    display: inline-block;
+    text-transform: uppercase;
 
 }
 
@@ -65,7 +73,7 @@ header a{
 .menu li ul li{
     display: block;
     margin-top: 20%;
-    padding: 0  20px;
+    padding:  8px;
     text-align: left;
    
     
